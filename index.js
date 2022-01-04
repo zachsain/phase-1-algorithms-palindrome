@@ -1,9 +1,18 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let reverseStr = ""
+  let stringLength =  word.length()
+
+  for (let i = (stringLength - 1); i >= 0; i--) {
+    reverseStr = reverseStr + word.charAt(i)
+  }
+  
 }
 
 /* 
   Add your pseudocode here
+  want algorithm to accept an arguement of a string
+  if string is a palindrome the output = true 
+
 */
 
 /*
